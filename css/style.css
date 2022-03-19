@@ -1,0 +1,16 @@
+.product{
+    display: flex;
+    margin:2rem 0 2rem 2rem;
+    justify-content: space-around;
+}
+input[type="checkbox"]{
+    margin-left:10px !important;
+}
+.card ul{
+    list-style: none;
+    margin-right:auto;
+    margin-left: auto;
+}
+button{
+    margin-left: 10px;
+}
