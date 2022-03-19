@@ -84,7 +84,7 @@
                 if (name && sku && price && productType && size) {
                     $.ajax({
                         type: "post",
-                        url: "api/index.php",
+                        url: "http://localhost/scandi/api/index.php",
                         data: {
                             "product_name":name,
                             "product_price":price,
